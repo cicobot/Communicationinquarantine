@@ -1,0 +1,184 @@
+@font-face {
+        font-family:suisse-int-medium;
+        src:url(fonts/SuisseIntl-Medium.otf) format("opentype");
+    }
+
+@font-face {
+        font-family:suisse-int-bold;
+        src:url(fonts/SuisseIntl-Bold.otf) format("opentype");
+    }
+
+@font-face {
+        font-family:publicobanner-light;
+        src:url(fonts/PublicoBanner-Light.otf) format("opentype");
+    }
+
+
+@font-face {
+            font-family:reader-regular;
+            src:url(fonts/reader-regular.otf) format("opentype");
+        }
+
+@font-face {
+            font-family:reader-regular-italic;
+            src:url(fonts/reader-italic.otf) format("opentype");
+                }
+
+body, html {
+    display: flex;
+    flex-wrap: wrap;
+		width: 100%;
+  	margin: 2%;
+  	color: #0000ff;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'reader-regular';
+    line-height: 1.25;
+}
+
+@media (max-width: 1200px) {
+  body {
+    display: block;
+  }
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-family: 'reader-regular-italic';
+}
+
+.text {
+	padding: 0;
+	margin: 0;
+}
+
+/*
+.pealkiri {
+	text-align: center;
+	margin: 0;
+}*/
+
+.student1 {
+  font-family: 'reader-regular';
+	color: white;
+  background-color: red;
+  font-size: 1.1rem;
+  }
+
+.student2 {
+    font-family: 'reader-regular';
+  	color: red;
+    background-color: blue;
+    font-size: 1.1rem;
+    }
+
+@media (max-width: 700px) {
+  .student {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .student {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .student {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .student {
+    font-size: 20px;
+  }
+}
+
+
+#invisible {
+  display: none;
+}
+
+.block {
+  box-sizing: border-box;
+  display: flex;
+  padding: 50px;
+  width: 50%;
+  height: 800px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .block {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.download-link {
+  display: flex;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.dark {
+  color: #111;
+}
+
+.light {
+  color: #FFF;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.asterisk {
+  position: fixed;
+  display: flex;
+  width: 1rem;
+  right: 0;
+  padding: 30px;
+}
+
+.asterisk-white {
+  width: 1rem;
+  padding-bottom: 30px;
+}
